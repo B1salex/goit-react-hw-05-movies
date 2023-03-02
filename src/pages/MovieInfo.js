@@ -6,10 +6,10 @@ import {
   StyledNavLink,
   StyledIcon,
   StyledLink,
-} from './MovieInfo.styled';
+} from '../components/MovieInfo/MovieInfo.styled';
 import { MovieDetails } from 'components/MovieDetails/MovieDetails';
 
-import { getMoovieById } from '../../service/fetchMoovie';
+import { getMoovieById } from '../service/fetchMoovie';
 // import { Moviedetails } from '../MovieDetails/MovieDetails';
 const MovieInfo = () => {
   const [movie, setMovie] = useState(null);

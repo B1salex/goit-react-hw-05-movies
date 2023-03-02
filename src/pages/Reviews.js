@@ -1,4 +1,4 @@
-import { getMovieReview } from '../../service/fetchMoovie';
+import { getMovieReview } from '../service/fetchMoovie';
 import { useState, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
 
@@ -8,7 +8,7 @@ import {
   ReviewAythor,
   Rewiew,
   Container,
-} from './Rewiews.styled';
+} from '../components/MovieInfo/Rewiews.styled';
 
 const MovieReview = () => {
   const [reviews, setReviews] = useState([]);

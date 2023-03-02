@@ -8,9 +8,9 @@ import SharedLayout from './SharedLayout/SharedLayout';
 const Home = lazy(() => import('../pages/Home'));
 const Movies = lazy(() => import('../pages/Movies'));
 
-const MovieInfo = lazy(() => import('./MovieInfo/MovieInfo'));
-const MovieCast = lazy(() => import('./MovieInfo/Cast'));
-const MovieReview = lazy(() => import('./MovieInfo/Reviews'));
+const MovieInfo = lazy(() => import('../pages/MovieInfo'));
+const MovieCast = lazy(() => import('../pages/Cast'));
+const MovieReview = lazy(() => import('../pages/Reviews'));
 
 export const App = () => {
   return (

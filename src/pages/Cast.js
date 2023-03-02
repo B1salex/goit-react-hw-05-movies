@@ -1,4 +1,4 @@
-import { getMooviecastById } from '../../service/fetchMoovie';
+import { getMooviecastById } from '../service/fetchMoovie';
 import { useState, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
 
@@ -8,7 +8,7 @@ import {
   CastPoster,
   CastName,
   Character,
-} from './Cast.styled';
+} from '../components/MovieInfo/Cast.styled';
 const MovieCast = () => {
   const [cast, setCast] = useState([]);
   const { id } = useParams();
